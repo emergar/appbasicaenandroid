@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
@@ -9,6 +9,7 @@
     tools:context=".CalculadoraActivity">
 
     <TextView
+        android:labelFor="@id/txtprimervalor"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/strprimervalor"
@@ -20,9 +21,11 @@
         android:ems="10"
         android:id="@+id/txtprimervalor"
         android:inputType="number"
+        android:autofillHints="creditCardNumber"
         />
 
     <TextView
+        android:labelFor="@id/txtsegundovalor"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/strsegundovalor"
@@ -34,6 +37,7 @@
         android:ems="10"
         android:id="@+id/txtsegundovalor"
         android:inputType="number"
+        android:autofillHints="creditCardNumber"
         />
 
     <LinearLayout
@@ -53,6 +57,7 @@
             android:layout_height="wrap_content"
             android:text="@string/strbtnrestar"
             android:onClick="restar"
+            style="@style/Widget.AppCompat.Button"
             />
 
     </LinearLayout>
