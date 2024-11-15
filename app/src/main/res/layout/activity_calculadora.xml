@@ -50,6 +50,7 @@
             android:layout_height="wrap_content"
             android:text="@string/strbtnsumar"
             android:onClick="sumar"
+            style="@style/Widget.AppCompat.Button"
             />
 
         <Button
@@ -73,6 +74,7 @@
             android:layout_height="wrap_content"
             android:text="@string/strbtnmultiplicar"
             android:onClick="multiplicar"
+            style="@style/Widget.AppCompat.Button"
             />
 
         <Button
@@ -80,6 +82,7 @@
             android:layout_height="wrap_content"
             android:text="@string/strbtndividir"
             android:onClick="dividir"
+            style="@style/Widget.AppCompat.Button"
             />
     </LinearLayout>
 
@@ -90,7 +93,7 @@
         android:id="@+id/lblmensaje"
         android:textStyle="bold|italic"
         android:textColor="@color/purple_500"
-        android:text="Resultado"
+        android:text="@string/strmenu"
         />
 
 </LinearLayout>

@@ -16,11 +16,12 @@
     <string name="strprimervalor">First Value</string>
     <string name="strsegundovalor">Second Value</string>
     <string name="strbtnsumar">Sum</string>
-    <string name="strbtnrestar">Substract</string>
+    <string name="strbtnrestar">Subtract</string>
     <string name="strbtndividir">Divide</string>
     <string name="strbtnmultiplicar">Multiply</string>
 
     <string name="strbtnregresar">Go back</string>
+    <string name="strlblresultado">Result</string>
 
 
 
