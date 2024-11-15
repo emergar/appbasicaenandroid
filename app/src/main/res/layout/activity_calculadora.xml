@@ -93,7 +93,7 @@
         android:id="@+id/lblmensaje"
         android:textStyle="bold|italic"
         android:textColor="@color/purple_500"
-        android:text="@string/strmenu"
+        android:text="@string/strlblresultado"
         />
 
 </LinearLayout>
