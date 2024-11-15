@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--
+    Etiquetas :: TextView
+    Campos de Texto :: EditText
+    Boton de acción :: Button
+    Imagen :: ImageView
+    Boton de Imagen :: ImageButton
+    -->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/usuario100"
+        android:contentDescription="@string/strusuario"
+        />
+
+    <ImageView
+        android:id="@+id/imageButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@tools:sample/avatars"
+        android:contentDescription="@string/strusuario"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/strusuario"
+        android:textStyle="bold|italic"
+        android:textColor="@color/purple_500"
+        />
+
+    <EditText
+        android:id="@+id/txtusuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="username"
+        android:hint="@string/stringreseusuario"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/strclave"
+        android:textStyle="bold|italic"
+        android:textColor="@color/purple_500"
+        />
+
+    <EditText
+        android:id="@+id/txtclave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="password"
+        android:hint="@string/stringreseclave"
+        android:inputType="numberPassword"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/btnacceder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stracceder"
+        />
+
+
+
+</LinearLayout>

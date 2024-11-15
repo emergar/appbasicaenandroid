@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Android Project</string>
+
+    <!-- Los textos de los elementos de MainActivity -->
+    <string name="strusuario">User</string>
+    <string name="strclave">Password</string>
+    <string name="stracceder">Access</string>
+    <string name="stringreseusuario">Insert login</string>
+    <string name="stringreseclave">Insert password</string>
+
+    <!-- Los textos de los elementos de MenuActivity -->
+    <string name="strmenu">Main Menu</string>
+    <string name="strcalculadora">Cal</string>
+
+    <!-- Los textos de los elementos de CalculadoraActivity -->
+    <string name="strprimervalor">First Value</string>
+    <string name="strsegundovalor">Second Value</string>
+    <string name="strbtnsumar">Sum</string>
+    <string name="strbtnrestar">Substract</string>
+    <string name="strbtndividir">Divide</string>
+    <string name="strbtnmultiplicar">Multiply</string>
+
+    <string name="strbtnregresar">Go back</string>
+
+
+
+
+    <!--
+    <string name="strbtnlibros">Books</string>
+    <string name="strbtnautores">Authors</string>
+    <string name="strproducto_nombre">Name Product</string>
+    <string name="strproducto_guardar">Save Product</string>
+    -->
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Proyecto Android</string>
+
+    <!-- Los textos de los elementos de MainActivity -->
+    <string name="strusuario">Usuario</string>
+    <string name="strclave">Contraseña</string>
+    <string name="stracceder">Acceder</string>
+    <string name="stringreseusuario">Ingreaar el usuario</string>
+    <string name="stringreseclave">Ingresar la contraseña</string>
+
+    <!-- Los textos de los elementos de MenuActivity -->
+    <string name="strmenu">Menú principal</string>
+    <string name="strcalculadora">Calculadora</string>
+
+    <!-- Los textos de los elementos de CalculadoraActivity -->
+    <string name="strprimervalor">Primer valor</string>
+    <string name="strsegundovalor">Segundo valor</string>
+    <string name="strbtnsumar">Sumar</string>
+    <string name="strbtnrestar">Restar</string>
+    <string name="strbtndividir">Dividir</string>
+    <string name="strbtnmultiplicar">Multiplicar</string>
+
+    <string name="strbtnregresar">Regresar</string>
+
+
+
+
+</resources>
